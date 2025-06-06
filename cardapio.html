@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title data-i18n="cardapio_titulo">Cardápio - Louise Patisserie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-i18n="inicio">Início</a></li>
+                <li><a href="contatos.html" data-i18n="contato">Contato</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" data-i18n="modo_escuro">Modo Escuro</button>
+        <button id="lang-toggle" class="lang-btn" title="Mudar idioma" aria-label="Mudar idioma">
+            <span id="lang-flag" role="img" aria-label="Português">🇧🇷</span>
+        </button>
+    </header>
+
+    <main>
+        <section class="cardapio">
+            <h1 class="titulo-centralizado" data-i18n="nosso_cardapio">Nosso Cardápio</h1>
+            <h2 class="titulo-centralizado" data-i18n="brigadeiro">Brigadeiro</h2>
+            <div class="grade-bolos">
+                <div class="brigadeiro-item">
+                    <a href="churros.html">
+                        <img src="https://i.ibb.co/VZ7p8qg/churrss.jpg" alt="Brigadeiro Churros">
+                    </a>
+                    <h3 data-i18n="churros">Churros</h3>
+                    <p data-i18n="churros_preco">R$ 4,00 unidade</p>
+                </div>
+                <div class="brigadeiro-item">
+                    <a href="ferrero-rocher.html">
+                        <img src="https://i.ibb.co/Rp2pBttn/ferrero-rocher.jpg" alt="Brigadeiro Ferrero Rocher">
+                    </a>
+                    <h3 data-i18n="ferrero">Ferrero Rocher</h3>
+                    <p data-i18n="ferrero_preco">R$ 3,50 unidade</p>
+                </div>
+                <div class="brigadeiro-item">
+                    <a href="nutella.html">
+                        <img src="https://i.ibb.co/hRqtSXpQ/nutella.jpg" alt="Brigadeiro Nutella">
+                    </a>
+                    <h3 data-i18n="nutella">Nutella</h3>
+                    <p data-i18n="nutella_preco">R$ 3,50 unidade</p>
+                </div>
+            </div>
+        </section>
+    
+        <section class="cardapio">
+            <h2 class="titulo-centralizado" data-i18n="copo_felicidade">Copo da Felicidade</h2>
+            <div class="grade-bolos">
+                <div class="bolo-item">
+                    <a href="chocolate-belga.html">
+                        <img src="https://i.pinimg.com/736x/74/7e/fc/747efc6f18972e407d0935bfddc84658.jpg" alt="Bolo de Pote Chocolate">
+                    </a>
+                    <h3 data-i18n="chocolate_belga">Chocolate Belga</h3>
+                    <p data-i18n="chocolate_belga_preco">R$ 15,50 unidade</p>
+                </div>
+                <div class="bolo-item">
+                    <a href="morango.html">
+                        <img src="https://i.pinimg.com/736x/7d/8f/b2/7d8fb2779d60afd858c2c863b8658215.jpg" alt="Bolo de Pote Morango">
+                    </a>
+                    <h3 data-i18n="morango">Morango</h3>
+                    <p data-i18n="morango_preco">R$ 16,50 unidade</p>
+                </div>
+                <div class="bolo-item">
+                    <a href="prestigio.html">
+                        <img src="https://i.pinimg.com/736x/a4/7a/28/a47a283154e4b68b73e601547709078d.jpg" alt="Bolo de Pote Prestígio">
+                    </a>
+                    <h3 data-i18n="prestigio">Prestígio</h3>
+                    <p data-i18n="prestigio_preco">R$ 16,50 unidade</p>
+                </div>
+                <div class="bolo-item">
+                    <a href="limao.html">
+                        <img src="https://i.pinimg.com/736x/88/6f/a4/886fa406cb783f7da98dde52531f1578.jpg" alt="Bolo de Pote Limão">
+                    </a>
+                    <h3 data-i18n="limao">Limão</h3>
+                    <p data-i18n="limao_preco">R$ 15,50 unidade</p>
+                </div>
+                <div class="bolo-item">
+                    <a href="oreo.html">
+                        <img src="https://i.pinimg.com/736x/69/ea/2e/69ea2ec27cd3910cc22457bb8e19de04.jpg" alt="Bolo de Pote Oreo">
+                    </a>
+                    <h3 data-i18n="oreo">Oreo</h3>
+                    <p data-i18n="oreo_preco">R$ 16,50 unidade</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Louise Patisserie</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/gourmet_louise/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/5511986282765" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

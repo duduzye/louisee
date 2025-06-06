@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title data-i18n="contato_titulo">Contato - Louise Patisserie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-i18n="inicio">Início</a></li>
+                <li><a href="contatos.html" data-i18n="contato">Contato</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" data-i18n="modo_escuro">Modo Escuro</button>
+        <button id="lang-toggle" class="lang-btn" title="Mudar idioma" aria-label="Mudar idioma">
+            <span id="lang-flag" role="img" aria-label="Português">🇧🇷</span>
+        </button>
+    </header>
+
+    <main>
+        <section class="contato">
+            <h1 data-i18n="entre_contato">Entre em contato</h1>
+            <p>
+                <i class="fab fa-instagram"></i>
+                <span data-i18n="instagram">Instagram:</span>
+                <a href="https://www.instagram.com/gourmet_louise/">@gourmet_louise</a>
+            </p>
+            <p>
+                <i class="fas fa-phone-alt"></i>
+                <span data-i18n="telefone">Telefone:</span>
+                <span data-i18n="telefone_numero">(11) 98628-2765</span>
+            </p>
+            <form id="contato-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <br>
+                <label for="email">E-mail:</label>
+                <input id="email" name="email" required></required>
+                <br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Louise Patisserie</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/gourmet_louise/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/5511986282765" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
